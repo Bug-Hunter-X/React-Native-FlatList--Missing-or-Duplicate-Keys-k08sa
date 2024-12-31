@@ -1,0 +1,1 @@
+This error occurs when using the `FlatList` component in React Native and not providing a unique `key` prop for each item in the data array.  React Native needs a unique identifier for each item to efficiently update and render the list.  Without it, you might encounter unexpected behavior like incorrect rendering, performance issues, or errors related to component re-renders.
